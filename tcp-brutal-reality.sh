@@ -89,7 +89,7 @@ install_pkgs() {
 install_shortcut() {
   cat > /root/sbox/mianyang.sh << EOF
 #!/usr/bin/env bash
-bash <(curl -fsSL https://github.com/vveg26/sing-box-reality-hysteria2/raw/main/tcp-brutal-reality.sh) \$1
+bash <(curl -fsSL https://github.com/mianayang/sing-box-reality-hysteria2/raw/main/tcp-brutal-reality.sh) \$1
 EOF
   chmod +x /root/sbox/mianyang.sh
   ln -sf /root/sbox/mianyang.sh /usr/bin/mianyang
