@@ -1,18 +1,18 @@
 ## 先随意安装reality
 例如二合一：
 ```bash
-bash <(curl -fsSL https://github.com/mianayang/sing-box-reality-hysteria2/raw/main/install.sh)
+bash <(curl -fsSL https://github.com/lslz627/sing-box-reality-hysteria2/raw/main/install.sh)
 ```
 ## 申请证书
 ```shell
-bash <(curl -Ls https://raw.githubusercontent.com/mianayang/myself/main/BashScript/SSLAutoInstall/SSLAutoInstall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/lslz627/myself/main/BashScript/SSLAutoInstall/SSLAutoInstall.sh)
 ```
 ## 安装ngx
 ```shell
-bash <(curl -Ls https://raw.githubusercontent.com/mianayang/myself/main/BashScript/nginx-onekey/ngx.sh) --install
+bash <(curl -Ls https://raw.githubusercontent.com/lslz627/myself/main/BashScript/nginx-onekey/ngx.sh) --install
 ```
 ## 修改ngx内容
-如果需要更加多功能，请参考：https://github.com/mianayang/myself/tree/main/Conf/sing-box
+如果需要更加多功能，请参考：https://github.com/lslz627/myself/tree/main/Conf/sing-box
 <p>
 nano /etc/nginx/nginx.conf
 

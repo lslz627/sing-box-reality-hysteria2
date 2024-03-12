@@ -125,7 +125,7 @@ install_pkgs() {
 install_shortcut() {
   cat > $WORK_DIR/mianyang.sh << EOF
 #!/usr/bin/env bash
-bash <(curl -fsSL https://github.com/mianayang/sing-box-reality-hysteria2/raw/main/beta.sh) \$1
+bash <(curl -fsSL https://github.com/lslz627/sing-box-reality-hysteria2/raw/main/beta.sh) \$1
 EOF
   chmod +x $WORK_DIR/mianyang.sh
   ln -sf $WORK_DIR/mianyang.sh /usr/bin/mianyang
